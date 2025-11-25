@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>1424429</id>
+      <name>greenmont</name>
+      <size>1494</size>
+      <mode>interpolation</mode>
+      <overlap>5</overlap>
+      <bugtracker></bugtracker>
+      <created>2025-06-03 00:01:46.344963+00:00</created>
+      <updated>2025-06-03 00:04:35.423391+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>1493</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>2529542</id>
+          <start>0</start>
+          <stop>1493</stop>
+          <url>https://app.cvat.ai/api/jobs/2527259</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>Mason.E.Jeffrey</username>
+        <email>Mason.E.Jeffrey@student.uts.edu.au</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>flags</name>
+          <color>#fafa37</color>
+          <type>polygon</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>water</name>
+          <color>#33ddff</color>
+          <type>polygon</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+      <original_size>
+        <width>1280</width>
+        <height>720</height>
+      </original_size>
+      <source>surfline_greenmount_20250521_1314.mp4</source>
+    </task>
+    <dumped>2025-06-03 00:04:49.794128+00:00</dumped>
+  </meta>
+  <track id="0" label="water" source="manual">
+    <polygon frame="0" keyframe="1" outside="0" occluded="0" points="457.01,720.00;1016.64,676.83;1280.00,646.50;1280.00,402.72;1279.89,394.19;2.38,397.42;0.00,635.57;0.00,720.00" z_order="0">
+    </polygon>
+    <polygon frame="1" keyframe="1" outside="1" occluded="0" points="457.01,720.00;1016.64,676.83;1280.00,646.50;1280.00,402.72;1279.89,394.19;2.38,397.42;0.00,635.57;0.00,720.00" z_order="0">
+    </polygon>
+  </track>
+  <track id="1" label="flags" source="manual">
+    <polygon frame="0" keyframe="1" outside="0" occluded="0" points="449.75,715.59;968.18,680.06;730.77,455.57;436.83,463.64" z_order="0">
+    </polygon>
+    <polygon frame="1" keyframe="1" outside="1" occluded="0" points="449.75,715.59;968.18,680.06;730.77,455.57;436.83,463.64" z_order="0">
+    </polygon>
+  </track>
+</annotations>

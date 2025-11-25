@@ -1,0 +1,64 @@
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>1409520</id>
+      <name>final video</name>
+      <size>1555</size>
+      <mode>interpolation</mode>
+      <overlap>5</overlap>
+      <bugtracker/>
+      <created>2025-05-26 00:01:59.942817+00:00</created>
+      <updated>2025-05-26 00:20:53.795799+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>1554</stop_frame>
+      <frame_filter/>
+      <segments>
+        <segment>
+          <id>2503299</id>
+          <start>0</start>
+          <stop>1554</stop>
+          <url>https://app.cvat.ai/api/jobs/2501022</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>Mason.E.Jeffrey</username>
+        <email>Mason.E.Jeffrey@student.uts.edu.au</email>
+      </owner>
+      <assignee/>
+      <labels>
+        <label>
+          <name>flag</name>
+          <color>#60e080</color>
+          <type>any</type>
+          <attributes> </attributes>
+        </label>
+        <label>
+          <name>flags</name>
+          <color>#fafa37</color>
+          <type>polygon</type>
+          <attributes> </attributes>
+        </label>
+        <label>
+          <name>water</name>
+          <color>#33ddff</color>
+          <type>polygon</type>
+          <attributes> </attributes>
+        </label>
+      </labels>
+      <original_size>
+        <width>1280</width>
+        <height>720</height>
+      </original_size>
+      <source>surfline_mooloolaba_20250525_1141.mp4</source>
+    </task>
+    <dumped>2025-05-26 00:21:19.977572+00:00</dumped>
+  </meta>
+  <track id="0" label="water" source="manual">
+    <polygon frame="0" keyframe="1" outside="0" occluded="0" points="590.89,498.83;1278.90,553.09;1278.90,367.04;1.71,368.98;0.00,452.97;0.00,463.96" z_order="0"/>
+  </track>
+  <track id="1" label="flags" source="manual">
+    <polygon frame="0" keyframe="1" outside="0" occluded="0" points="234.29,563.43;808.00,450.40;1048.00,463.70;840.00,642.16" z_order="0"/>
+  </track>
+</annotations>

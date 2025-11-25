@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Video and XML</title>
+</head>
+<body>
+    <h2>Upload a Video and an XML File</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <label>Video file -</label><br>
+        <input type="file" name="video" accept="video/*" required><br><br>
+
+        <label>XML file -</label><br>
+        <input type="file" name="xml" accept=".xml" required><br><br>
+
+        <label><input type="checkbox" name="show_boxes" checked> Show Bounding Boxes</label><br>
+        <label><input type="checkbox" name="show_labels" checked> Show Prediction Labels</label><br><br>
+
+        <label>Annotate People In -</label><br>
+        <label><input type="checkbox" name="show_in_water" checked> In Water</label><br>
+        <label><input type="checkbox" name="show_out_of_flags" checked> Out of Flags</label><br>
+        <label><input type="checkbox" name="show_on_beach" checked> On Beach</label><br><br>
+
+        <label>Alert Phone Number -</label><br>
+        <input type="tel" name="alert_phone" value="0412345678" required><br><br>
+
+        <label>Max Number of People Allowed OUT OF FLAGS -</label><br>
+        <input type="number" name="max_out_of_flags" value="5" min="0"><br><br>
+
+        <label>Max Number of People Allowed BETWEEN THE FLAGS -</label><br>
+        <input type="number" name="max_in_water" value="15" min="0"><br><br>
+
+        <button type="submit">Start Detection</button>
+    </form>
+</body>
+</html>
