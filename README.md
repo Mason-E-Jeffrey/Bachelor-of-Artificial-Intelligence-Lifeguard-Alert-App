@@ -2,11 +2,20 @@
 I completed this project in a small group with Jeonghyeon Kim and Jungmin Kim as our final mini project for 42028: Deep Learning and Convolutional Neural Network at the beginning of 2025.
 
 ### Demo 
+<p align="center">
+    <img src="realtime-app-test/static/assets/annotated_surfline_mooloolaba_20250525_1141.gif"
+       alt="Lifeguard Alert Demo 1 (Mooloolaba)"
+       width="48%" />
+    <img src="realtime-app-test/static/assets/annotated_surfline_greenmount_20250521_1314.gif"
+       alt="Lifeguard Alert Demo 2 (Greenmount)"
+       width="48%" />
+</p>
+
 Annotated Surf Camera Mooloolaba -
-[Demo 1](realtime-app-test/static/assets/annotated_surfline_mooloolaba_20250525_1141.mp4?raw=1)
+[Demo 1 MP4](realtime-app-test/static/assets/annotated_surfline_mooloolaba_20250525_1141.mp4?raw=1)
 
 Annotated Surf Camera Greenmount -
-[Demo 2](realtime-app-test/static/assets/annotated_surfline_greenmount_20250521_1314.mp4?raw=1)
+[Demo 2 MP4](realtime-app-test/static/assets/annotated_surfline_greenmount_20250521_1314.mp4?raw=1)
 
 ### Dataset
 The dataset was created from scratch using manually downloaded video footage from Surfline cameras positioned across 20 different beaches along Australia’s East Coast. From each 1-minute video, we extracted 12 frames - one every 5 seconds - to increase diversity as wave patterns and swimmer position changes quite frequently. All images were 1280 × 720 pixels in size. Image annotation in CVAT was a time-consuming process that took a couple of weeks to complete, as some images contained over 100 people each requiring an accurate bounding box - even distant swimmers. Even though there wasn’t much beach diversity with only 20 different beaches, it wasn’t an issue since the prototype model was only trained to detect the ‘person’ class.
