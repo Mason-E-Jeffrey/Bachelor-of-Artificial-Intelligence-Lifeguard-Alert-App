@@ -1,11 +1,11 @@
 # Lifeguard Alert - Object Detection (Assessment Task 3) 
-I completed this project in a small group with Jeonghyeon Kim and Jungmin Kim as our final mini project for 42028: Deep Learning and Convolutional Neural Network. 
+I completed this project in a small group with Jeonghyeon Kim and Jungmin Kim as our final mini project for 42028: Deep Learning and Convolutional Neural Network at the beginning of 2025.
 
 ### Demo 
-Annotated Surf Camera Mooloolaba:
+Annotated Surf Camera Mooloolaba -
 [Demo 1](realtime-app-test/static/assets/annotated_surfline_mooloolaba_20250525_1141.mp4?raw=1)
 
-Annotated Surf Camera Greenmount:
+Annotated Surf Camera Greenmount -
 [Demo 2](realtime-app-test/static/assets/annotated_surfline_greenmount_20250521_1314.mp4?raw=1)
 
 ### Dataset
